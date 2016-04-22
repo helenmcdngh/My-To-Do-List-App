@@ -1,0 +1,4 @@
+I have created a two tab todo list
+The first tab, "to do list" holds the tasks added.
+The second tab allows you to add tasks to the to do list, It asks for the task, details, finish date and people doing the task
+Then it adds it to the "to do list" tab.

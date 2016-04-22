@@ -1,0 +1,17 @@
+<ion-view view-title="To Do List">    
+    
+  <ion-content class="wrap">
+    <!--Tasks layout -->
+    <ion-list>
+      <ion-item ng-repeat="task in data.tasks">
+          
+        <!-- Layout of Tasks -->  
+        <h2>Task: {{ task.title }}</h2>
+        <h4>Details: {{task.detail}}</h4>
+        <h4>Person\People: {{task.name}}</h4>
+        <h4>Finishing Date: {{task.dueDate}}</h4>
+        
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
